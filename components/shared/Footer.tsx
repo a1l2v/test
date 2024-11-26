@@ -1,22 +1,10 @@
-import Image from "next/image"
-import Link from "next/link"
-
 const Footer = () => {
   return (
-    <footer className="border-t">
-      <div className="flex-center wrapper flex-between flex flex-col gap-4 p-5 text-center sm:flex-row">
-        <Link href='/'>
-          <Image 
-            src="/assets/images/logo.svg"
-            alt="logo"
-            width={128}
-            height={38}
-          />
-        </Link>
-
-        <p>2023 Evently. All Rights reserved.</p>
-      </div>
-    </footer>
+    <footer className="bg-gray-100 z-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 text-center text-gray-500">
+          © 2023 Social Sphere. All rights reserved.
+        </div>
+      </footer>
   )
 }
 
